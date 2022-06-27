@@ -10,6 +10,10 @@ var carSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  image: {
+    type: String,
+    required: true,
+  },
   class: {
     type: String,
     enum : ['premium','business', 'sport', 'SUV', 'cabriolet', 'economy', 'electro'],
@@ -25,7 +29,7 @@ var carSchema = new mongoose.Schema({
   },
   gearbox: {
     type: String,
-    enum : ['manual','auto'],
+    enum : ['manual','auto', 'electro'],
     required: true,
   },
   color: {
@@ -36,17 +40,13 @@ var carSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  enginePower: {
-    type: Number,
-    required: true,
-  },
   price: {
     type: Number,
     required: true,
   },
   fuel: {
     type: String,
-    enum : ['electro','petrol', 'diesel'],
+    enum : ['hybrid','petrol', 'diesel'],
     required: true,
   },
   createdAt: {

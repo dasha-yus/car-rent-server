@@ -3,8 +3,13 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
+const seedDB = require("./utils/seeds");
+
+const carRoutes = require("./routes/car");
 
 const PORT = process.env.PORT || 4000;
+
+seedDB();
 
 app.use(cors());
 
@@ -32,5 +37,7 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
   next();
 });
+
+app.use(carRoutes);
 
 start();

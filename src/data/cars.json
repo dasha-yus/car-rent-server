@@ -1,0 +1,28 @@
+[
+  {
+    "brand": "Scoda",
+    "model": "Rapid",
+    "image": "https://cp-avtomir.ru/photo_bank/render/skoda/rapid_ng/style_%D1%85%D1%8D%D1%82%D1%87%D0%B1%D0%B5%D0%BA/X3X3_1.png",
+    "class": "economy",
+    "doors": 4,
+    "seats": 4,
+    "gearbox": "auto",
+    "color": "gray",
+    "year": 2019,
+    "price": 25,
+    "fuel": "petrol"
+  },
+  {
+    "brand": "BMW",
+    "model": "i8",
+    "image": "https://www.seekpng.com/png/full/16-164576_bmw-i8.png",
+    "class": "electro",
+    "doors": 2,
+    "seats": 4,
+    "gearbox": "auto",
+    "color": "silver",
+    "year": 2016,
+    "price": 180,
+    "fuel": "hybrid"
+  }
+]
