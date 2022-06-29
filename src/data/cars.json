@@ -6,7 +6,7 @@
     "class": "economy",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2019,
     "price": 25,
     "fuel": "petrol"
@@ -18,7 +18,7 @@
     "class": "electro",
     "doors": 2,
     "seats": 4,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2016,
     "price": 180,
     "fuel": "hybrid"
@@ -30,7 +30,7 @@
     "class": "cabriolet",
     "doors": 2,
     "seats": 2,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2014,
     "price": 68,
     "fuel": "petrol"
@@ -42,7 +42,7 @@
     "class": "sport",
     "doors": 2,
     "seats": 2,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2017,
     "price": 165,
     "fuel": "petrol"
@@ -54,7 +54,7 @@
     "class": "electro",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2014,
     "price": 165,
     "fuel": "electro"
@@ -66,7 +66,7 @@
     "class": "economy",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2022,
     "price": 24,
     "fuel": "petrol"
@@ -78,7 +78,7 @@
     "class": "economy",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2021,
     "price": 32,
     "fuel": "petrol"
@@ -90,7 +90,7 @@
     "class": "SUV",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2020,
     "price": 100,
     "fuel": "diesel"
@@ -114,7 +114,7 @@
     "class": "sport",
     "doors": 2,
     "seats": 2,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2020,
     "price": 134,
     "fuel": "petrol"
@@ -126,7 +126,7 @@
     "class": "sport",
     "doors": 2,
     "seats": 2,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2016,
     "price": 250,
     "fuel": "petrol"
@@ -138,7 +138,7 @@
     "class": "sport",
     "doors": 2,
     "seats": 2,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2016,
     "price": 250,
     "fuel": "petrol"
@@ -150,7 +150,7 @@
     "class": "premium",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2019,
     "price": 110,
     "fuel": "petrol"
@@ -162,7 +162,7 @@
     "class": "premium",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2016,
     "price": 190,
     "fuel": "petrol"
@@ -174,7 +174,7 @@
     "class": "premium",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2019,
     "price": 120,
     "fuel": "petrol"
@@ -186,7 +186,7 @@
     "class": "premium",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2019,
     "price": 190,
     "fuel": "petrol"
@@ -198,7 +198,7 @@
     "class": "SUV",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2020,
     "price": 220,
     "fuel": "petrol"
@@ -210,7 +210,7 @@
     "class": "SUV",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2018,
     "price": 230,
     "fuel": "petrol"
@@ -222,7 +222,7 @@
     "class": "SUV",
     "doors": 4,
     "seats": 5,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2020,
     "price": 235,
     "fuel": "petrol"
@@ -234,7 +234,7 @@
     "class": "cabriolet",
     "doors": 2,
     "seats": 4,
-    "gearbox": "auto",
+    "gearbox": "automatic",
     "year": 2015,
     "price": 134,
     "fuel": "petrol"

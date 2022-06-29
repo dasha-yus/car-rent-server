@@ -29,7 +29,7 @@ var carSchema = new mongoose.Schema({
   },
   gearbox: {
     type: String,
-    enum : ['manual','auto', 'electro'],
+    enum : ['manual','automatic', 'electro'],
     required: true,
   },
   year: {
