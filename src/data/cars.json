@@ -2,7 +2,7 @@
   {
     "brand": "Scoda",
     "model": "Rapid",
-    "image": "https://cp-avtomir.ru/photo_bank/render/skoda/rapid_ng/style_%D1%85%D1%8D%D1%82%D1%87%D0%B1%D0%B5%D0%BA/X3X3_1.png",
+    "image": "/images/rapid.png",
     "class": "economy",
     "doors": 4,
     "seats": 5,
@@ -14,7 +14,7 @@
   {
     "brand": "BMW",
     "model": "i8",
-    "image": "https://www.seekpng.com/png/full/16-164576_bmw-i8.png",
+    "image": "/images/i8.png",
     "class": "electro",
     "doors": 2,
     "seats": 4,
@@ -26,7 +26,7 @@
   {
     "brand": "BMW",
     "model": "Z4 II",
-    "image": "https://www.pngkey.com/png/full/60-605530_starting-msrp-at-49-7002available-in-roadster-bmw.png",
+    "image": "/images/z4.png",
     "class": "cabriolet",
     "doors": 2,
     "seats": 2,
@@ -38,7 +38,7 @@
   {
     "brand": "Chevrolet",
     "model": "Camaro",
-    "image": "https://www.pngmart.com/files/4/Chevrolet-Camaro-PNG-Transparent-Image.png",
+    "image": "/images/camaro.png",
     "class": "sport",
     "doors": 2,
     "seats": 2,
@@ -50,7 +50,7 @@
   {
     "brand": "Tesla",
     "model": "Model S",
-    "image": "https://pngimg.com/uploads/tesla_car/tesla_car_PNG14.png",
+    "image": "/images/model-s.png",
     "class": "electro",
     "doors": 4,
     "seats": 5,
@@ -62,19 +62,19 @@
   {
     "brand": "Kia",
     "model": "Rio",
-    "image": "https://www.pragmaticar.ru/uploads/model-colors/0e4061680579042f963b3312a207230c.png",
+    "image": "/images/rio.png",
     "class": "economy",
     "doors": 4,
     "seats": 5,
     "gearbox": "auto",
-    "year": 2016,
-    "price": 19,
+    "year": 2022,
+    "price": 24,
     "fuel": "petrol"
   },
   {
     "brand": "Volkswagen",
     "model": "Polo",
-    "image": "https://www.volkswagen-brest.by/local/templates/new_design/img/auto/polo/respect/0a0a/VW_Polo_Respect_0A0A_1n.png",
+    "image": "/images/polo.png",
     "class": "economy",
     "doors": 4,
     "seats": 5,
@@ -86,7 +86,7 @@
   {
     "brand": "Kia",
     "model": "Sorento",
-    "image": "https://www.pragmaticar.ru/uploads/model-colors/3ac8d5430f0d6cb12ff4c6a93cd7587e.png",
+    "image": "/images/sorento.png",
     "class": "SUV",
     "doors": 4,
     "seats": 5,
@@ -98,7 +98,7 @@
   {
     "brand": "Hyundai",
     "model": "Solaris",
-    "image": "https://image-server.autospot.ru/images/1/0/2/2/1/5/1503292/origin/1503292.png",
+    "image": "/images/solaris.png",
     "class": "economy",
     "doors": 4,
     "seats": 5,
@@ -110,7 +110,7 @@
   {
     "brand": "Ford",
     "model": "Mustang Coupe",
-    "image": "https://www.pngmart.com/files/10/Ford-Mustang-PNG-Pic.png",
+    "image": "/images/mustang.png",
     "class": "sport",
     "doors": 2,
     "seats": 2,
@@ -122,7 +122,7 @@
   {
     "brand": "Lamborghini",
     "model": "Aventador",
-    "image": "https://www.pngall.com/wp-content/uploads/5/Lamborghini-Aventador-PNG-File.png",
+    "image": "/images/aventador.png",
     "class": "sport",
     "doors": 2,
     "seats": 2,
@@ -134,7 +134,7 @@
   {
     "brand": "Acura",
     "model": "NSX",
-    "image": "https://www.pngmart.com/files/13/Acura-NSX-Transparent-Images-PNG.png",
+    "image": "/images/nsx.png",
     "class": "sport",
     "doors": 2,
     "seats": 2,
@@ -146,7 +146,7 @@
   {
     "brand": "Audi",
     "model": "A6",
-    "image": "https://www.vhv.rs/dpng/d/146-1464914_audi-a6-2019-png-transparent-png.png",
+    "image": "/images/a6.png",
     "class": "premium",
     "doors": 4,
     "seats": 5,
@@ -158,7 +158,7 @@
   {
     "brand": "Porsche",
     "model": "Panamera",
-    "image": "https://images.dealer.com/ddc/vehicles/2020/Porsche/Panamera/Hatchback/perspective/front-left/2020_76.png",
+    "image": "/images/panamera.png",
     "class": "premium",
     "doors": 4,
     "seats": 5,
@@ -170,7 +170,7 @@
   {
     "brand": "BMW",
     "model": "5-Series G30",
-    "image": "https://dizelbox.ru/sites/default/files/styles/r650w/public/1-3.png?itok=dr2GIMVi",
+    "image": "/images/g30.png",
     "class": "premium",
     "doors": 4,
     "seats": 5,
@@ -181,8 +181,8 @@
   },
   {
     "brand": "Mercedes Benz",
-    "model": "C Class Sedan Hero",
-    "image": "https://www.pngkey.com/png/full/772-7723571_2019-mercedes-benz-c-class-sedan-hero-image.png",
+    "model": "C300",
+    "image": "/images/c300.png",
     "class": "premium",
     "doors": 4,
     "seats": 5,
@@ -194,7 +194,7 @@
   {
     "brand": "Range Rover",
     "model": "Velar",
-    "image": "https://www.kindpng.com/picc/m/264-2648871_land-rover-range-rover-velar-diesel-estate-hd.png",
+    "image": "/images/velar.png",
     "class": "SUV",
     "doors": 4,
     "seats": 5,
@@ -206,7 +206,7 @@
   {
     "brand": "BMW",
     "model": "X5",
-    "image": "https://media.adtorqueedge.com/new-cars/bmw-aus/x5m/variant/x5-m-competition.png",
+    "image": "/images/x5.png",
     "class": "SUV",
     "doors": 4,
     "seats": 5,
@@ -218,7 +218,7 @@
   {
     "brand": "Jaguar",
     "model": "F-Pace SVR",
-    "image": "https://www.pngplay.com/wp-content/uploads/13/Jaguar-F-Pace-SVR-Background-PNG.png",
+    "image": "/images/f-face.png",
     "class": "SUV",
     "doors": 4,
     "seats": 5,
@@ -230,7 +230,7 @@
   {
     "brand": "Ford",
     "model": "Mustang Cabrio",
-    "image": "https://www.pngmart.com/files/15/Ford-Mustang-Convertible-Car-Open-Transparent-PNG.png",
+    "image": "/images/mustang-cabrio.png",
     "class": "cabriolet",
     "doors": 2,
     "seats": 4,
