@@ -9,7 +9,9 @@
     "gearbox": "automatic",
     "year": 2019,
     "price": 25,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "103.2",
+    "conditioner": true
   },
   {
     "brand": "BMW",
@@ -21,7 +23,9 @@
     "gearbox": "automatic",
     "year": 2016,
     "price": 180,
-    "fuel": "hybrid"
+    "fuel": "hybrid",
+    "power": "369",
+    "conditioner": true
   },
   {
     "brand": "BMW",
@@ -33,7 +37,9 @@
     "gearbox": "automatic",
     "year": 2014,
     "price": 68,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "255",
+    "conditioner": false
   },
   {
     "brand": "Chevrolet",
@@ -45,7 +51,9 @@
     "gearbox": "automatic",
     "year": 2017,
     "price": 165,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "335",
+    "conditioner": true
   },
   {
     "brand": "Tesla",
@@ -57,7 +65,9 @@
     "gearbox": "automatic",
     "year": 2014,
     "price": 165,
-    "fuel": "electro"
+    "fuel": "electro",
+    "power": "785",
+    "conditioner": true
   },
   {
     "brand": "Kia",
@@ -69,7 +79,9 @@
     "gearbox": "automatic",
     "year": 2022,
     "price": 24,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "120",
+    "conditioner": true
   },
   {
     "brand": "Volkswagen",
@@ -81,7 +93,9 @@
     "gearbox": "automatic",
     "year": 2021,
     "price": 32,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "109",
+    "conditioner": true
   },
   {
     "brand": "Kia",
@@ -93,7 +107,9 @@
     "gearbox": "automatic",
     "year": 2020,
     "price": 100,
-    "fuel": "diesel"
+    "fuel": "diesel",
+    "power": "191",
+    "conditioner": true
   },
   {
     "brand": "Hyundai",
@@ -105,7 +121,9 @@
     "gearbox": "manual",
     "year": 2019,
     "price": 24,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "123",
+    "conditioner": false
   },
   {
     "brand": "Ford",
@@ -117,7 +135,9 @@
     "gearbox": "automatic",
     "year": 2020,
     "price": 134,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "450",
+    "conditioner": true
   },
   {
     "brand": "Lamborghini",
@@ -129,7 +149,9 @@
     "gearbox": "automatic",
     "year": 2016,
     "price": 250,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "740",
+    "conditioner": true
   },
   {
     "brand": "Acura",
@@ -141,7 +163,9 @@
     "gearbox": "automatic",
     "year": 2016,
     "price": 250,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "600",
+    "conditioner": true
   },
   {
     "brand": "Audi",
@@ -153,7 +177,9 @@
     "gearbox": "automatic",
     "year": 2019,
     "price": 110,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "261",
+    "conditioner": true
   },
   {
     "brand": "Porsche",
@@ -165,7 +191,9 @@
     "gearbox": "automatic",
     "year": 2016,
     "price": 190,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "620",
+    "conditioner": true
   },
   {
     "brand": "BMW",
@@ -177,7 +205,9 @@
     "gearbox": "automatic",
     "year": 2019,
     "price": 120,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "190",
+    "conditioner": true
   },
   {
     "brand": "Mercedes Benz",
@@ -189,7 +219,9 @@
     "gearbox": "automatic",
     "year": 2019,
     "price": 190,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "255",
+    "conditioner": true
   },
   {
     "brand": "Range Rover",
@@ -201,7 +233,9 @@
     "gearbox": "automatic",
     "year": 2020,
     "price": 220,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "247",
+    "conditioner": true
   },
   {
     "brand": "BMW",
@@ -213,7 +247,9 @@
     "gearbox": "automatic",
     "year": 2018,
     "price": 230,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "335",
+    "conditioner": true
   },
   {
     "brand": "Jaguar",
@@ -225,7 +261,9 @@
     "gearbox": "automatic",
     "year": 2020,
     "price": 235,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "246",
+    "conditioner": true
   },
   {
     "brand": "Ford",
@@ -237,6 +275,8 @@
     "gearbox": "automatic",
     "year": 2015,
     "price": 134,
-    "fuel": "petrol"
+    "fuel": "petrol",
+    "power": "310",
+    "conditioner": false
   }
 ]

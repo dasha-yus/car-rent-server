@@ -45,6 +45,14 @@ var carSchema = new mongoose.Schema({
     enum : ['hybrid','petrol', 'diesel', 'electro'],
     required: true,
   },
+  power: {
+    type: Number,
+    required: true,
+  },
+  conditioner: {
+    type: Boolean,
+    required: true,
+  },
   createdAt: {
     type: Date,
     required: true,
