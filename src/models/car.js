@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
-const { ObjectId } = mongoose.Schema.Types;
 
-var carSchema = new mongoose.Schema({
+const carSchema = new mongoose.Schema({
   brand: {
     type: String,
     required: true,

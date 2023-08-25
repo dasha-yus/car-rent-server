@@ -3,8 +3,9 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
-const seedDB = require("./utils/seeds");
+const bodyParser = require('body-parser')
 
+const seedDB = require("./utils/seeds");
 const carRoutes = require("./routes/car");
 
 const PORT = process.env.PORT || 4000;
@@ -12,6 +13,8 @@ const PORT = process.env.PORT || 4000;
 seedDB();
 
 app.use(cors());
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
 
 const start = async () => {
   try {
