@@ -7,10 +7,11 @@ const bodyParser = require('body-parser')
 
 const seedDB = require("./utils/seeds");
 const carRoutes = require("./routes/car");
+const userRoutes = require("./routes/auth");
 
 const PORT = process.env.PORT || 4000;
 
-seedDB();
+// seedDB();
 
 app.use(cors());
 app.use(bodyParser.json())
@@ -42,5 +43,6 @@ app.use((req, res, next) => {
 });
 
 app.use(carRoutes);
+app.use(userRoutes);
 
 start();
