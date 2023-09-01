@@ -4,34 +4,46 @@ const generateToken = require("../utils/generateToken.js");
 const User = require("../models/user.js");
 
 router.post("/auth/signup", async (req, res) => {
-  const { firstName, lastName, email, password } = req.body;
+  try {
+    const { firstName, lastName, email, password } = req.body;
 
-  const userExists = await User.findOne({ email });
+    if (!firstName || !lastName || !email || !password) {
+      return res.status(400).json({ message: "Some fields are not filled" });
+    }
+    if (password.length < 6) {
+      return res
+        .status(400)
+        .json({ message: "The password needs to be at least 6 characters long" });
+    }
 
-  if (userExists) {
-    res.status(400);
-    throw new Error("User already exists");
-  }
+    const existingUser = await User.findOne({ email: email });
+    if (existingUser) {
+      return res
+        .status(400)
+        .json({ message: "An account with this email already exists" });
+    }
 
-  const user = await User.create({
-    firstName,
-    lastName,
-    email,
-    password,
-  });
-
-  if (user) {
-    res.status(201).json({
-      _id: user._id,
-      firstName: user.firstName,
-      lastName: user.lastName,
-      email: user.email,
-      isAdmin: user.isAdmin,
-      token: generateToken(user._id, user.email, user.isAdmin),
+    const user = await User.create({
+      firstName,
+      lastName,
+      email,
+      password,
     });
-  } else {
-    res.status(400);
-    throw new Error("Invalid user data");
+
+    if (user) {
+      res.status(201).json({
+        _id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        isAdmin: user.isAdmin,
+        token: generateToken(user._id, user.email, user.isAdmin),
+      });
+    } else {
+      res.status(400).json({ message: "Invalid user data" });
+    }
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 
@@ -50,8 +62,7 @@ router.post("/auth/login", async (req, res) => {
       token: generateToken(user._id),
     });
   } else {
-    res.status(401);
-    throw new Error("Invalid email or password");
+    res.status(401).json({ message: "Invalid email or password" });
   }
 });
 
