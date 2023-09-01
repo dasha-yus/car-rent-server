@@ -26,6 +26,22 @@ router.post("/cars", (req, res) => {
     .catch((err) => res.status(500).json(err));
 });
 
+router.put("/cars/:id", (req, res, next) => {
+  Car.findByIdAndUpdate(
+    req.params.id,
+    {
+      $set: req.body,
+    },
+    (error, data) => {
+      if (error) {
+        res.status(500).json(error);
+      } else {
+        res.json(data);
+      }
+    }
+  );
+});
+
 // winston for logging
 // swagger
 // validation middleware
