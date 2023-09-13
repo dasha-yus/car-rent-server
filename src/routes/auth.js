@@ -2,7 +2,9 @@ const express = require("express");
 const router = express.Router();
 const generateToken = require("../utils/generateToken.js");
 const User = require("../models/user.js");
+const isAdmin = require("../middleware/isAdmin.js");
 
+// Sign up
 router.post("/auth/signup", async (req, res) => {
   try {
     const { firstName, lastName, email, password } = req.body;
@@ -47,6 +49,7 @@ router.post("/auth/signup", async (req, res) => {
   }
 });
 
+// Sign in
 router.post("/auth/login", async (req, res) => {
   const { email, password } = req.body;
 
@@ -59,14 +62,15 @@ router.post("/auth/login", async (req, res) => {
       lastName: user.lastName,
       email: user.email,
       isAdmin: user.isAdmin,
-      token: generateToken(user._id),
+      token: generateToken(user._id, user.email, user.isAdmin),
     });
   } else {
     res.status(401).json({ message: "Invalid email or password" });
   }
 });
 
-router.get("/users", (req, res) => {
+// Get all users
+router.get("/users", isAdmin, (req, res) => {
   User.find()
     .then((users) => res.json(users))
     .catch((err) => res.status(500).json(err));

@@ -8,6 +8,7 @@ const bodyParser = require('body-parser')
 const seedDB = require("./utils/seeds");
 const carRoutes = require("./routes/car");
 const userRoutes = require("./routes/auth");
+const reservationRoutes = require("./routes/reservation");
 
 const PORT = process.env.PORT || 4000;
 
@@ -44,5 +45,6 @@ app.use((req, res, next) => {
 
 app.use(carRoutes);
 app.use(userRoutes);
+app.use("/reservations", reservationRoutes)
 
 start();
