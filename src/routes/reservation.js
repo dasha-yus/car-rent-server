@@ -1,12 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const Reservation = require("../models/reservation");
-const isAdmin = require("../middleware/isAdmin");
 const isAuth = require("../middleware/auth");
 
 // Get all reservations
-router.get("/", isAdmin, (req, res) => {
-  Reservation.find()
+router.get("/", isAuth, (req, res) => {
+  Reservation.find(req.query.carId ? { carId: req.query.carId } : {})
     .then((reservations) => res.json(reservations))
     .catch((err) => res.status(500).json(err));
 });
